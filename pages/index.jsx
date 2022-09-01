@@ -15,7 +15,7 @@ export default function Home () {
             </p>
             <div className={clsx(
               'h-60px w-[210px]',
-              'bg-gradient-to-r from-sky-500/75 via-violet-500/75 to-pink-500/75',
+              'bg-gradient-to-r from-sky-500/80 via-violet-500/80 to-pink-500/80',
               'flex items-center justify-center',
               'mt-6', 
               'rounded-lg',

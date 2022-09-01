@@ -6,7 +6,7 @@ module.exports = {
     theme: {
       extend: {
         backgroundImage: {
-            '404': "url('https://cdn.pixabay.com/photo/2017/04/06/22/31/cake-decorating-2209478_960_720.jpg')",
+            '404': "url('https://cdn.pixabay.com/photo/2017/08/07/07/18/cakes-2600951_960_720.jpg')",
             'home': "url('https://cdn.pixabay.com/photo/2022/08/21/22/01/bokeh-7402197_960_720.jpg')"
         },
         spacing: {
