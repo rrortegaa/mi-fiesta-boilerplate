@@ -1,7 +1,16 @@
+import clsx from 'clsx'
 
-export default function Card ({ children }) {
+export default function Card ({ children, className }) {
   return (
-    <div className="border border-white backdrop-blur-md flex- flex-col justify-center py-8 px-5 rounded-xl shadow-lg shadow-white/30 w-full">
+    <div className={clsx(
+      'border border-white rounded-xl',
+      'backdrop-blur-md',
+      'flex- flex-col justify-center',
+      'py-8 px-5',
+      'shadow-lg shadow-white/30',
+      'w-full',
+      className
+    )}>
       {children}
     </div>
   )
